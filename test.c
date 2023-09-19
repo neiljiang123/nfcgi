@@ -165,7 +165,7 @@ int main(int argc, char *const *argv)
         printf("Writing output data...\n");
 
         fcgi_request_send_str(request, "Content-Type: application/json\r\n\r\n");
-        fcgi_request_send_str(request, "{ \"test\": 5 }\n");
+        fcgi_request_send_str(request, "{ \"test\": 5 }");
 
         fcgi_request_finalize(request, FCGI_STATUS_REQUEST_COMPLETE);
 

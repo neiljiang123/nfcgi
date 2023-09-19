@@ -107,7 +107,7 @@ extern int fcgi_exhaust_input(fcgi_request_t *request);
 extern int fcgi_request_send_data(fcgi_request_t *request, const void *buffer, const size_t buffer_length);
 
 // If you don't feel like calling strlen yourself...
-#define fcgi_request_send_str(req, str) fcgi_request_send_data((req), (str), (strlen(str) + 1))
+#define fcgi_request_send_str(req, str) fcgi_request_send_data((req), (str), strlen(str))
 
 // Finalize the passed request
 extern int fcgi_request_finalize(fcgi_request_t *request, fcgi_status_t status);
