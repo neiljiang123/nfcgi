@@ -1,0 +1,10 @@
+nfcgi is a FastCGI protocol library in a single file (with 2 headers).
+
+This runs at least on macOS and FreeBSD, likely also on any Linux distro (possibly needs libbsd)
+
+I wrote this in a weekend, it's in standard C with no external deps, should be pretty easy to include in other projects.
+
+Here, I handle some of the request bookkeeping on top of the base protocol. You could probably multithread overtop of it, and I might try with the project I made this for.
+
+Everything here is licensed under GPLv2
+
