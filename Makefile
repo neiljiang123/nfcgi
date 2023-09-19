@@ -1,7 +1,7 @@
 CFLAGS := -O2 -flto --std=c2x -I.
 CC := clang
 
-SRCS := nfcgi.c ebml.c test.c
+SRCS := nfcgi.c test.c
 
 OBJS := $(patsubst %.c, build/%.o, $(SRCS))
 
