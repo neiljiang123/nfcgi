@@ -1,3 +1,9 @@
+/* ********************************************************** */
+/* -*- nfcgi.h -*- FastCGI Library Interface Declarations -*- */
+/* ********************************************************** */
+/* Tyler Besselman (C) September 2023, licensed under GPLv2   */
+/* ********************************************************** */
+
 #ifndef __NFCGI__
 #define __NFCGI__ 1
 

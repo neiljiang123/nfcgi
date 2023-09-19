@@ -1,3 +1,9 @@
+/* ********************************************************** */
+/* -*- nfcgi-protocol.h -*- FastCGI Protocol Definitions  -*- */
+/* ********************************************************** */
+/* Tyler Besselman (C) September 2023, licensed under GPLv2   */
+/* ********************************************************** */
+
 #ifndef __NFCGI_PROTOCOL__
 #define __NFCGI_PROTOCOL__ 1
 

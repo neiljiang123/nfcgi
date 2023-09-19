@@ -1,4 +1,9 @@
-#include <stdint.h>
+/* ********************************************************** */
+/* -*- nfcgi.c -*- FastCGI Protocol Implementation        -*- */
+/* ********************************************************** */
+/* Tyler Besselman (C) September 2023, licensed under GPLv2   */
+/* ********************************************************** */
+
 #include <sys/socket.h>
 #include <sys/param.h>
 #include <arpa/inet.h>
