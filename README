@@ -6,5 +6,8 @@ I wrote this in a weekend, it's in standard C with no external deps, should be p
 
 Here, I handle some of the request bookkeeping on top of the base protocol. You could probably multithread overtop of it, and I might try with the project I made this for.
 
+This library is smaller than the reference implementation, and offers more features in some regards (less in others).
+I decided to go with less weird things like piping stdout, stdin, stderr directly to the remote, and give more direct control over each request to the user.
+
 Everything here is licensed under GPLv2
 
